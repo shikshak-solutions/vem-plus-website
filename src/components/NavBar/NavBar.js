@@ -60,7 +60,7 @@ export default function NavBar() {
             px={{ xs: 4, md: 0 }}
           >
             <Link to="/">Home</Link>
-            <Link to="/search">About Us</Link>
+            <Link to="/about">About</Link>
             <Link to="/services">Services</Link>
             <Link to="/contact">Contact</Link>
 

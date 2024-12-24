@@ -1,5 +1,5 @@
 import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from "@mui/material";
-import banner from '../../../assets/patientcaring.png'
+import banner from '../../../assets/about.png'
 import tick from '../../../assets/tick-blue - Copy.png';
 
 export default function About() {

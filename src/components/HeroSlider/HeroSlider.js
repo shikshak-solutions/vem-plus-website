@@ -19,7 +19,7 @@ export default function HeroSlider() {
                         <Typography color="#262262" fontSize={{ md: 20 }} mb={3}>
                             Your trusted partner for instant, essential, and specialized care without appointments.
                         </Typography>
-                        <Link to="/search">
+                        <Link to="/services">
                             <button className="button" disableElevation>
                                 Explore Our Services
                             </button>

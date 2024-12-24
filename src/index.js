@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Home/Home";
 import { createTheme, ThemeProvider } from "@mui/material";
 import MyBookings from "./MyBookings/MyBookings";
+import Services from "./components/Sections/Specialization/Services";
+import Contact from "./components/Sections/Contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -14,12 +16,16 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "search",
+        path: "about",
         element: <Search />,
       },
       {
-        path: "my-bookings",
-        element: <MyBookings />,
+        path: "services",
+        element: <Services />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
       {
         path: "/",

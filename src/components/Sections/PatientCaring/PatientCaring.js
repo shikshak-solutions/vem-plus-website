@@ -54,7 +54,7 @@ export default function PatientCaring() {
                                     <Box component='img' src={tick} height={22} width={22} />
                                 </ListItemIcon>
                                 <ListItemText
-                                    primary='Manage Your Appointments'
+                                    primary='No Appointments'
                                     primaryTypographyProps={{ fontSize: { xs: 14, md: 18 }, fontWeight: 500, color: '#262262' }}
                                 />
                             </ListItem>

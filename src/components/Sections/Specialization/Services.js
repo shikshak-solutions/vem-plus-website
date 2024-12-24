@@ -11,7 +11,7 @@ import checkupIcon from "../../../assets/checkups.png";
 import {Link} from "react-router-dom";
 import React from "react";
 
-export default function Specialization() {
+export default function Services() {
 
     const data = [
         { icon: checkupIcon, title: 'Routine Health Checkups' },
@@ -25,7 +25,7 @@ export default function Specialization() {
     ]
 
     return (
-        <Box py={6} sx={{ background: '#FFFFFF' }}>
+        <Box py={6} sx={{ background: 'linear-gradient(#E7F0FF, #E8F1FF)' }}>
             <Container sx={{ textAlign: 'center' }}>
                 <Typography variant="h2" mb={4}>
                     Our Services
@@ -46,11 +46,6 @@ export default function Specialization() {
 
                 </Grid>
 
-                <Link to="/services">
-                    <button className="button" disableElevation>
-                        View All
-                    </button>
-                </Link>
 
             </Container>
         </Box>

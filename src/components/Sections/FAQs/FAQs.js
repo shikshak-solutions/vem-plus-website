@@ -7,19 +7,19 @@ export default function FAQs() {
     const faqs = [
         {
             question: 'Why choose our medical for your family?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+            answer: 'At Vem Plus Urgent Care, we provide comprehensive, convenient, and compassionate medical services for your entire family. Our experienced professionals are dedicated to delivering personalized care in a state-of-the-art facility, ensuring your family health is our top priority.'
         },
         {
             question: 'Why we are different from others?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+            answer: 'At VEM Plus Urgent Care, we stand out by offering immediate, comprehensive medical services without the need for appointments. Our experienced team provides personalized care in a state-of-the-art facility, ensuring prompt attention to your health needs. We are committed to promoting well-being within our community through health education and preventive care initiatives.'
         },
         {
             question: 'Trusted & experience senior care & love',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+            answer: 'At VEM Plus Urgent Care, we are dedicated to providing trusted and experienced senior care with compassion and love. Our team of skilled healthcare professionals offers personalized attention to meet the unique needs of each senior patient. We prioritize creating a welcoming environment where seniors feel valued and cared for, ensuring their health and well-being are our top priorities.'
         },
         {
-            question: 'How to get appointment for emergency cases?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+            question: 'No appointment for emergency cases?',
+            answer: 'At VEM Plus Urgent Care, we understand that emergencies require immediate attention. That\'s why we offer walk-in services for urgent medical needs—no appointment necessary. Our experienced healthcare professionals are ready to provide prompt and compassionate care when you need it most.'
         }
     ]
 

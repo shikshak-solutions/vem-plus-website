@@ -22,9 +22,7 @@ export default function Home() {
             "linear-gradient(#E7F0FF , rgba(232, 241, 255, 0.47) 90%, #fff 10%)",
         }}
         mb={4}
-      >
-        <NavBar />
-        <Container maxWidth="xl">
+      ><Container maxWidth="xl">
           {/* hero section, with doc images and text */}
           <HeroSlider />
           <Stack
@@ -37,7 +35,7 @@ export default function Home() {
             spacing={10}
             boxShadow="0 0 12px rgba(0,0,0,0.1)"
           >
-            
+
             <HeroServices />
             <Investigation />
           </Stack>
@@ -46,7 +44,7 @@ export default function Home() {
       <About />
 
       <Specialization />
-      
+
       <PatientCaring />
 
       <Blogs />
